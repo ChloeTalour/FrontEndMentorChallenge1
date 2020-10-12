@@ -1,0 +1,30 @@
+.header {
+  font-family: 'Raleway', sans-serif;
+  padding: 2em 1.5em;
+  display: flex;
+  align-items: center;
+  &__logo {
+    &--img {
+      width: 65%;
+    }
+  }
+  &__nav {
+    width: 90%;
+    &--ul {
+      display: flex;
+      justify-content: flex-end;
+      & li {
+        padding: .8em;
+        font-size: 13px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .header {
+    padding-left: 2.4em;
+  }
+}
+
