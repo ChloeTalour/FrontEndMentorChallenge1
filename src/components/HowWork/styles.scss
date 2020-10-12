@@ -1,0 +1,85 @@
+.howWork {
+  margin: 10em 2em 2em;
+  &__img {
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  &__content {
+    font-family: 'Open Sans', sans-serif;
+    &--title {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 1.3em;
+      padding-left: .5em;
+      margin-bottom: 1em;
+    }
+    &--text {
+      line-height: 1.5em;
+      margin-bottom: 1em;
+    }
+    &--link {
+      color: hsl(176, 68%, 64%);
+      display: inline-flex;
+      align-items: center;
+      border-bottom: 1px solid hsl(176, 68%, 64%);
+      padding-bottom: .5em;
+      font-size: 13px;
+      &:hover {
+        color: hsl(198, 60%, 50%);
+        border-bottom: 1px solid hsl(198, 60%, 50%);
+      }
+    }
+    &--icon {
+      padding-left: .5em;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .howWork {
+    display: flex;
+    align-items: center;
+    margin: 5em 2em 2em;
+    &__img {
+      width: 55%;
+    }
+    &__content {
+      &--title {
+        padding-left: 0em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .howWork {
+    margin: 5em 4em 2em;
+    &__img {
+      width: 45%;
+    }
+    &__content {
+      padding-left: 2em;
+      &--title {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .howWork {
+    margin: 5em 10em 2em;
+    &__img {
+      width: 40%;
+    }
+    &__content {
+      width: 45%;
+      margin-left: 2em;
+      &--title {
+        font-size: 2em;
+      }
+    }
+  }
+}
