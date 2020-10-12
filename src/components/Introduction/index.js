@@ -1,5 +1,5 @@
 import React from 'react';
-import introImg from '../../../images/illustration-intro.png';
+import introImg from 'src/assets/images/illustration-intro.png';
 import './styles.scss';
 
 const Introduction = () => (
