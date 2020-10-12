@@ -4,6 +4,8 @@ import Introduction from 'src/components/Introduction';
 import Values from 'src/components/Values';
 import HowWork from 'src/components/HowWork';
 import TeamTalk from 'src/components/TeamTalk';
+import GetAccess from 'src/components/GetAccess';
+import Footer from 'src/components/Footer';
 
 const Filo = () => (
   <div className="filo">
@@ -12,6 +14,8 @@ const Filo = () => (
     <Values />
     <HowWork />
     <TeamTalk />
+    <GetAccess />
+    <Footer />
   </div>
 );
 
