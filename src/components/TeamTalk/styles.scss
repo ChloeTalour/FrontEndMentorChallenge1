@@ -43,6 +43,7 @@
 @media screen and (min-width: 768px) {
   .team-talk {
     width: 90%;
+    margin-bottom: 0;
     &__all-cards {
       display: flex;
       flex-wrap: wrap;

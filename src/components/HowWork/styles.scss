@@ -29,10 +29,15 @@
         color: hsl(198, 60%, 50%);
         border-bottom: 1px solid hsl(198, 60%, 50%);
       }
+      &:hover .howWork__content--icon {
+        padding-left: 1em;
+        transform: rotate(-45deg);
+      }
     }
     &--icon {
       padding-left: .5em;
       font-family: 'Open Sans', sans-serif;
+      transition: transform 1s, transform 1s;
     }
   }
 }
@@ -70,12 +75,12 @@
 
 @media screen and (min-width: 1440px) {
   .howWork {
-    margin: 5em 5em 2em;
+    margin: 5em 2em 2em 5em;
     &__img {
       width: 40%;
     }
     &__content {
-      width: 40%;
+      width: 50%;
       margin-left: 2em;
       &--title {
         font-size: 2em;

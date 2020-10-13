@@ -17,6 +17,11 @@
         padding: .8em;
         font-size: 13px;
         font-weight: lighter;
+        transition: transform 1s, transform 1s;
+        &:hover {
+          transform: scale(1.2);
+          color: hsl(176, 68%, 64%);
+        }
       }
     }
   }

@@ -2,7 +2,7 @@
   width: 90%;
   margin: auto;
   background-color: hsl(217, 28%, 15%);
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 1px 12px 19px 1px rgba(0,0,0,0.75);;
   padding: 2em;
   margin-bottom: 2em;
@@ -44,6 +44,7 @@
       color: hsl(0, 0%, 100%);
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
+      cursor: pointer;
       &:hover {
         background: hsl(198, 60%, 50%);
       }
@@ -55,6 +56,8 @@
 @media screen and (min-width: 768px) {
   .get-access {
     width: 70%;
+    position: relative;
+    top: 120px;
     &__form {
       flex-direction: row;
       justify-content: center;
@@ -78,5 +81,12 @@
 @media screen and (min-width: 1440px) {
   .get-access {
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .get-access {
+    width: 40%;
+    top: 90px;
   }
 }

@@ -8,13 +8,18 @@ import Informations from './information';
 
 const Footer = () => (
   <footer className="footer">
-    <img className="footer__logo" src={Logo} alt="logo" />
+    <div className="footer__placeLogo">
+      <img className="footer__logo" src={Logo} alt="logo" />
+    </div>
+
     <div className="content__footer">
-      <Informations
-        icon={faMapMarkerAlt}
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-      />
+      <div className="content__footer--adress">
+        <Informations
+          icon={faMapMarkerAlt}
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        />
+      </div>
       <div className="footer__content">
         <Informations
           icon={faPhoneAlt}
